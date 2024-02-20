@@ -1,0 +1,30 @@
+---
+const proyectosPromise = import("../../public/proyectos.json");
+const obtenerProyectos = async () => (await proyectosPromise).default;
+const proyectos = await obtenerProyectos();
+---
+
+<section id="proyectos" class="w-full lg:w-[740px] mx-auto py-28">
+  <h1 class="text-4xl mb-4 font-semibold">Proyectos</h1>
+  {
+    proyectos.map((proyecto) => (
+      <div>
+        <h1 class="text-3xl text-violet-200 mb-2">{proyecto.title}</h1>
+        <h1 class="text-xl text-violet-200 mb-4">{proyecto.description}</h1>
+        <img src={proyecto.image} alt="Imagen del Proyecto" class="mb-4" />
+        <a
+          href={proyecto.url}
+          target="_blanck"
+          class="text-2xl flex justify-center text-lime-200 w-full"
+        >
+          {proyecto.title} Home Page
+        </a>
+        <div class="flex flex-column justify-evenly mt-4 mx-2 border-b-4 border-blue-200 mb-8 py-4 rounded-lg bg-slate-500 bg-opacity-25">
+          {proyecto.stack.map((logo) => (
+            <img src={logo} alt="Logo" class=" w-[20px] sm:w-[50px] h-[20px] sm:h-[50px] " />
+          ))}
+        </div>
+      </div>
+    ))
+  }
+</section>

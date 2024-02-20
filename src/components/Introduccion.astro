@@ -1,0 +1,47 @@
+---
+import Badge from "../components/Badge.astro";
+import GitHub from "../icons/gitHub.astro";
+import LinkedIn from "../icons/linkedIn.astro";
+import Gmail from "../icons/gmail.astro"
+---
+<section id="up" class="w-full lg:w-[740px] mx-auto py-28">
+    <h1 class="text-white text-5xl font-bold flex flex-row gap-x-4 pb-10">
+      Hey, Soy Michiqueli <a
+        href="https://www.linkedin.com/in/michiqueli/"
+        target="_blanck"
+        class="flex justify-center items-center"
+        ><Badge>Disponible para trabajar</Badge></a
+      >
+    </h1>
+    <h2 class="text-2xl opacity-80 text-wrap">
+      <span class="text-purple-200 opacity-70"
+        >Desarrolador Web Full Stack</span
+      > de <span class="text-cyan-200">Neuquén, Argentina</span>. Me
+      especializo en
+      <span class="text-yellow-200"
+        >desarrollo BackEnd y Dirección de proyectos</span
+      >. Soy un amante de la programación desde chico y estoy en busca de
+      lograr mi reconversión laboral.
+    </h2>
+
+    <ul class="mt-12 flex w-full justify-evenly">
+      <li class="flex flex-column text-center text-violet-200 hover:scale-125">
+        <a href="https://www.github.com/michiqueli/">
+          <GitHub />
+          GitHUb
+        </a>
+      </li>
+      <li class="flex flex-column text-center text-violet-200 hover:scale-125">
+          <a href="https://www.linkedin.com/in/michiqueli/">
+            <LinkedIn />
+            LinkedIn
+          </a>
+        </li>
+        <li class="flex flex-column text-center text-violet-200 hover:scale-125">
+          <a href="mailto:michiqueli@gmail.com">
+            <Gmail />
+            Gmail
+          </a>
+        </li>
+    </ul>
+  </section>

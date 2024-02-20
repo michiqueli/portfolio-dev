@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "Readly Goods",
+    "description": "Un e-commerce de venta de libros, realizado durante la simulación laboral de No-Country, el mismo estuvo basado en una página similar de Uruguay. En este proyecto me desenvolví principalmente como Back-End y en la parte de Front-End me encargué del AdminDashboard. Pero también colabore como Project Manager, asignando tareas en Jira y Manejando el repositorio y los deploys en Vercel",
+    "image": "https://res.cloudinary.com/ddhtxn2am/image/upload/v1708467096/ReadlyGoods_hnoefj.png",
+    "url": "https://c15-58-readlygoods.vercel.app",
+    "stack": [
+      "/logos/react.svg",
+      "/logos/nodejs.svg",
+      "/logos/tailwindcss.svg",
+      "/logos/expressjs.svg",
+      "/logos/mongodb-wordmark.svg",
+      "/logos/javascript.svg",
+      "/logos/jira-1.svg",
+      "/logos/github.svg"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Olimpus Shop",
+    "description": "Un E-commerce de venta de articulos deportivos realacionados con la musculación, fue desarrollado como Proyecto Final de Henry Academy. En el mismo me desenvolví como Back-End y Project Manager, encargandome del manejo de tareas con Jira, los repositorios de GitHub y los deploys en Vercel y Railway",
+    "image": "https://res.cloudinary.com/ddhtxn2am/image/upload/v1708467097/OlimpusShop_jtiyhs.png",
+    "url": "http://olimpus-shop.vercel.app",
+    "stack": [
+      "/logos/nextjs.svg",
+      "/logos/typescript.svg",
+      "/logos/nodejs.svg",
+      "/logos/tailwindcss.svg",
+      "/logos/expressjs.svg",
+      "/logos/postgresql.svg",
+      "/logos/sequelize.svg",
+      "/logos/javascript.svg",
+      "/logos/jira-1.svg",
+      "/logos/github.svg"
+    ]
+  }
+]
